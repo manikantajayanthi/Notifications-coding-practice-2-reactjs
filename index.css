@@ -1,0 +1,74 @@
+.main-heading {
+  color: #0f172a;
+  font-family: "Roboto";
+  margin-bottom: 20px;
+}
+
+.iconContainer {
+  margin-bottom: 20px;
+}
+
+.notifications-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary-notification {
+  background-color: #0b69ff;
+  color: #ffffff;
+  height: 50px;
+  width: 200px;
+  border-style: none;
+  font-family: "Roboto";
+  font-size: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.success-notification {
+  background-color: #2dca73;
+  color: #ffffff;
+  height: 50px;
+  width: 200px;
+  border-style: none;
+  font-family: "Roboto";
+  font-size: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: start;
+}
+.warning-notification {
+  background-color: #ffb800;
+  color: #ffffff;
+  height: 50px;
+  width: 200px;
+  border-style: none;
+  font-family: "Roboto";
+  font-size: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.danger-notification {
+  background-color: #ff0b37;
+  color: #ffffff;
+  height: 50px;
+  width: 200px;
+  border-style: none;
+  font-family: "Roboto";
+  font-size: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.imageIcon {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
